@@ -13,7 +13,7 @@ Materiales de Clase
 * [Crear una cuenta de Github](0.2-github-account.md)
 * Configurar un entorno de desarrollo en
   [Linux](0.3-development-environment-linux.md), 
-  [Mac](0.3-development-environment-osx.md) and 
+  [Mac](0.3-development-environment-osx.md) y 
   [Windows](0.3-development-environment-windows.md)
 * [Pivotal Tracker](0.4-pivotal-tracker.md)
 
