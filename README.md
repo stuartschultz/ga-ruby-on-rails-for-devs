@@ -1,58 +1,66 @@
-Ruby on Rails for Developers
-============================
+Ruby on Rails para Desarrolladores
+==================================
 
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
-This course teaches experienced developers [Ruby](http://www.ruby-lang.org) and [Ruby on Rails](http://rubyonrails.org/). It's designed to be taught by a practicing rubyist and a teaching assistant. Both individuals must have expert understanding of Ruby, Rack and Ruby on Rails. The ideal class size is 12-15 students, each having prior application development track record. The lesson plan is conceived as 12 two-hour lectures with homework given after each of the first 6 courses. Assignments are tracked in [Pivotal Tracker](http://pivotaltracker.com). Subsequent 6 lectures alternate class material with coding. The course ends with 8 hours of building a final project for obtaining certification.
+Este curso enseña [Ruby](http://www.ruby-lang.org) y [Ruby on Rails](http://rubyonrails.org/) a desarrolladores experimentados. Está diseñado para ser enseñado por un practicante de Ruby y un asistente. Ambas  personas deben ser expertos en Ruby, Rack y Ruby on Rails.
 
-These materials were developed for General Assembly's class: Ruby on Rails for Developers. To apply to take the next itearation of this class through GA visit: [Rails for Dev @ GA](https://generalassemb.ly/ruby-on-rails-for-devs)
+El tamaño ideal de la clase es de 12 a 15 estudiantes, cada uno debe tener historial de desarrollo de aplicaciones. El plan de clases está compuesto por 12 clases de 2 horas con tarea luego de las primeras 6 clases. Las tareas son seguidas en Pivotal Tracker. Subsecuentemente 6 clases con material alternativo y codificación. El curso termina con 8 horas de construcción de un proyecto final para obtener la certificación.
+
+Estos materiales fueron desarrollados para la Assamblea General de clases: Desarrolladores de Ruby on Rails. Para postularse en la próxima iteración de este curso a través de GA visite: [Rails for Dev @ GA](https://generalassemb.ly/ruby-on-rails-for-devs)
 
 
-Class Material
---------------
+Material de la clase
+--------------------
 
-We start by introducing students to the Ruby development environment and show elementary Ruby code. Students also learn how to use Git and exercise the development workflow via [Github](http://github.com), including pull requests and topic branches. We dive into Ruby basics and conclude with object-oriented features, mixins and exception handling.
+Empezamos por presentarle a los estudiantes el entorno de desarrollo de Ruby y algo de código elemental. Los estudiantes también aprenderán a usar Git y ejercitar el flujo de trabajo vía Github, incluyendo peticiones de pull (bajar el código) y ramas con tema (topic branch). Nos sumergimos en lo más básico de Ruby y concluimos con las características de la orientación a objetos, mixins y manejo de excepciones.
 
-After the class gains enough familiarity with the language features, we teach [Rack](http://rack.github.com/), an essential foundation of any solid Ruby on Rails knowledge. The instructor builds a basic web application that serves static files from the file system with Rack. A Rails application is then assembled from scratch without the use of Rails generators. Tests are written with the default unit test infrastructure, and once again using behavior-driven development with [RSpec](http://rspec.info/). The application is deployed on [Heroku](http://www.heroku.com/).
+Luego de que los alumnos se familiaricen los suficiente con las características del lenguaje, enseñamos [Rack](http://rack.github.com/), algo esencial para cualquier conocimiento sólido de Ruby on Rails. El instructor construye una aplicación web básica que muestra archivos estáticos del sistema de archivos con Rack. Luego se construye una aplicación desde cero sin el uso de los generadores de Rails. Se escriben pruebas con la infraestructura por defecto de los test unitarios, y una vez aprendido el uso del desarrollo-guiado-por-el-comportamiento con RSpec. La aplicación es desplegada en Heroku.
 
-We step aside to teach Ruby meta-programming before lecturing on ActiveRecord, ERB, HAML and SASS. The instructor then builds authentication without using an off-the-shelf library. This combination of technologies gives the students the necessary tools to build a complete project, which is typically introduced around the 6th lecture. When this material was developed we asked the students to build a Ruby on Rails clone of the popular [Stashboard](http://www.stashboard.org/) application.
+Nos hacemos a un lado para enseñar meta-programación en Ruby antes de la clase de ActiveRecord, ERB, HAML y SASS. Entonces el instructor construye una autentificación sin usar una librería ya desarrollada. Esta combinación de tecnologías le da al estudiante las herramientas necesarias para desarrollar un proyecto completo, que generalmente se da cerca de la sexta clase. Cuando este material fue dado le pedimos a los estudiantes que desarrollen un clon del popular sitio [Stashboard](http://www.stashboard.org/) en Ruby.
 
-Final lectures include RESTful APIs with Rails and [Grape](https://github.com/intridea/grape), an introduction to NoSQL databases with [MongoDB](http://mongodb.org). We also recommend you offer students an opportunity to revisit any topic that was insufficiently clear or lecture on a topic that they are curious about.
+Las últimas clases incluyen RESTful APIs con Rails y [Grape](https://github.com/intridea/grape), una introducción a bases de datos NoSQL con [MongoDB](http://mongodb.org). También te recomendamos ofrecerle a los estudiantes una oportunidad de revisar cualquier tema que no fue suficientemente claro o cualquier clase de un tema en el que estén interesados.
 
-* [Introduction: Getting Started](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/00-getting-started/README.md)
-* [Lecture 1: Developer Workflow](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/01-developer-workflow/README.md)
-* [Lecture 2: Ruby Basics](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/02-ruby-basics/README.md)
-* [Lecture 3: Rack](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/03-rack/README.md)
-* [Lecture 4: Rails MVC](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/04-rails-mvc/README.md)
-* [Lecture 5: RSpec](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/05-rspec/README.md)
-* [Lecture 6: Ruby Meta-Programming](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/06-ruby-meta-programming/README.md)
-* [Lecture 7: ActiveRecord](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/07-active-record/README.md)
-* [Lecture 8: Rendering in Rails](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/08-erb-haml-sass/README.md)
-* [Lecture 9: Authentication](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/09-authentication/README.md)
-* [Lecture 10: RESTful API](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/10-restful-api/README.md)
-* [Lecture 11: NoSQL with MongoDB](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/11-nosql-with-mongodb/README.md)
-* [Lecture 12: Caching](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/12-caching/README.md)
+* [Introducción: Empezando](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/00-getting-started/README.md)
+* [Clase 1: El flujo de desarrollo del desarrollador](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/01-developer-workflow/README.md)
+* [Clase 2: Cuestiones básicas de Ruby](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/02-ruby-basics/README.md)
+* [Clase 3: Rack](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/03-rack/README.md)
+* [Clase 4: Rails MVC](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/04-rails-mvc/README.md)
+* [Clase 5: RSpec](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/05-rspec/README.md)
+* [Clase 6: Meta-programación en Ruby](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/06-ruby-meta-programming/README.md)
+* [Clase 7: ActiveRecord](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/07-active-record/README.md)
+* [Clase 8: Rendering en Rails](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/08-erb-haml-sass/README.md)
+* [Clase 9: Autentificación](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/09-authentication/README.md)
+* [Clase 10: RESTful API](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/10-restful-api/README.md)
+* [Clase 11: NoSQL con MongoDB](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/11-nosql-with-mongodb/README.md)
+* [Clase 12: Caché](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/12-caching/README.md)
 
-Exercises
----------
+Ejercicios
+----------
 
 * [Exercises](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/tree/master/class)
 
-License
--------
+Licencia
+--------
 
-This course is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](http://creativecommons.org/licenses/by-nc-sa/3.0/us/). It may be reused and adapted for non-commercial purposes. Please contact [Matthew Owens at GeneralAssemb.ly](mailto:mowens@generalassemb.ly) for commercial licensing.
+Este curso está bajo una licencia [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](http://creativecommons.org/licenses/by-nc-sa/3.0/us/). Puede ser reutilizado y adaptado para fines no comerciales. Por favor, póngase en contacto con [Matthew Owens en GeneralAssemb.ly](mailto:mowens@generalassemb.ly) para la concesión de licencias comerciales.
 
 ![Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License")
 
-Sponsors
---------
+Patrocinadores
+--------------
 
-This course has been produced in partnership with [Pivotal Labs](http://pivotallabs.com/) and [Engine Yard](http://www.engineyard.com/).
+Este curso ha sido producido en colaboración con [Pivotal Labs](http://pivotallabs.com/) y [Engine Yard](http://www.engineyard.com/).
 
 ![PivotalLabs](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/pivotal-labs.png "PivotalLabs")
 
 ![EngineYard](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/engine-yard.png "EngineYard")
+
+Créditos
+--------
+
+@wmarcos -- Traducción al Español
+@chinshr -- Spanish branch
 
 Copyright
 ---------
