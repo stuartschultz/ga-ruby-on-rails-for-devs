@@ -1,7 +1,7 @@
 Ruby on Rails para Desarrolladores
 ==================================
 
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/spanish/images/ga.png "GeneralAssemb.ly")
 
 Este curso enseña [Ruby](http://www.ruby-lang.org) y [Ruby on Rails](http://rubyonrails.org/) a desarrolladores experimentados. Está diseñado para ser enseñado por un practicante de Ruby y un asistente. Ambas  personas deben ser expertos en Ruby, Rack y Ruby on Rails.
 
@@ -9,6 +9,15 @@ El tamaño ideal de la clase es de 12 a 15 estudiantes, cada uno debe tener hist
 
 Estos materiales fueron desarrollados para la Assamblea General de clases: Desarrolladores de Ruby on Rails. Para postularse en la próxima iteración de este curso a través de GA visite: [Rails for Dev @ GA](https://generalassemb.ly/ruby-on-rails-for-devs)
 
+Esencial
+--------
+
+* [Google Group](http://groups.google.com/group/ga-ruby-on-rails-for-devs)
+
+Otros idiomas
+-------------
+
+* [Inglés](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/)
 
 Material de la clase
 --------------------
@@ -21,24 +30,24 @@ Nos hacemos a un lado para enseñar meta-programación en Ruby antes de la clase
 
 Las últimas clases incluyen RESTful APIs con Rails y [Grape](https://github.com/intridea/grape), una introducción a bases de datos NoSQL con [MongoDB](http://mongodb.org). También te recomendamos ofrecerle a los estudiantes una oportunidad de revisar cualquier tema que no fue suficientemente claro o cualquier clase de un tema en el que estén interesados.
 
-* [Introducción: Empezando](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/00-getting-started/README.md)
-* [Clase 1: El flujo de desarrollo del desarrollador](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/01-developer-workflow/README.md)
-* [Clase 2: Cuestiones básicas de Ruby](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/02-ruby-basics/README.md)
-* [Clase 3: Rack](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/03-rack/README.md)
-* [Clase 4: Rails MVC](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/04-rails-mvc/README.md)
-* [Clase 5: RSpec](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/05-rspec/README.md)
-* [Clase 6: Meta-programación en Ruby](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/06-ruby-meta-programming/README.md)
-* [Clase 7: ActiveRecord](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/07-active-record/README.md)
-* [Clase 8: Rendering en Rails](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/08-erb-haml-sass/README.md)
-* [Clase 9: Autentificación](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/09-authentication/README.md)
-* [Clase 10: RESTful API](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/10-restful-api/README.md)
-* [Clase 11: NoSQL con MongoDB](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/11-nosql-with-mongodb/README.md)
-* [Clase 12: Caché](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/lectures/12-caching/README.md)
+* [Introducción: Empezando](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/00-getting-started/README.md)
+* [Clase 1: El flujo de desarrollo del desarrollador](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/01-developer-workflow/README.md)
+* [Clase 2: Cuestiones básicas de Ruby](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/02-ruby-basics/README.md)
+* [Clase 3: Rack](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/03-rack/README.md)
+* [Clase 4: Rails MVC](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/04-rails-mvc/README.md)
+* [Clase 5: RSpec](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/05-rspec/README.md)
+* [Clase 6: Meta-programación en Ruby](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/06-ruby-meta-programming/README.md)
+* [Clase 7: ActiveRecord](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/07-active-record/README.md)
+* [Clase 8: Rendering en Rails](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/08-erb-haml-sass/README.md)
+* [Clase 9: Autentificación](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/09-authentication/README.md)
+* [Clase 10: RESTful API](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/10-restful-api/README.md)
+* [Clase 11: NoSQL con MongoDB](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/11-nosql-with-mongodb/README.md)
+* [Clase 12: Caché](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/lectures/12-caching/README.md)
 
 Ejercicios
 ----------
 
-* [Exercises](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/tree/master/class)
+* [Exercises](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/tree/spanish/class)
 
 Licencia
 --------
@@ -52,9 +61,9 @@ Patrocinadores
 
 Este curso ha sido producido en colaboración con [Pivotal Labs](http://pivotallabs.com/) y [Engine Yard](http://www.engineyard.com/).
 
-![PivotalLabs](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/pivotal-labs.png "PivotalLabs")
+![PivotalLabs](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/spanish/images/pivotal-labs.png "PivotalLabs")
 
-![EngineYard](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/engine-yard.png "EngineYard")
+![EngineYard](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/spanish/images/engine-yard.png "EngineYard")
 
 Créditos
 --------
@@ -65,5 +74,5 @@ Créditos
 Copyright
 ---------
 
-(c) 2012 [GeneralAssemb.ly](https://generalassemb.ly/ruby-on-rails-for-devs), [Daniel Doubrovkine](http://github.com/dblock) and [contributors](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/master/CONTRIBUTORS.md).
+(c) 2012 [GeneralAssemb.ly](https://generalassemb.ly/ruby-on-rails-for-devs), [Daniel Doubrovkine](http://github.com/dblock) and [contributors](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/blob/spanish/CONTRIBUTORS.md).
 

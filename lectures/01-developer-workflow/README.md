@@ -1,13 +1,13 @@
-Lecture 1: Developer Workflow
-=============================
+Lectura 1: Flujo de Trabajo para desarrollar
+============================================
 
-Objective
+Objetivo
 ---------
 
-Learn the typical developer workflow used by the Ruby-on-Rails community. Understand Git and how it works with Github. 
+Aprender el típico flujo de trabajo para desarrollar usado por la comunidad Ruby-on-Rails. Comprender Git y cómo trabaja con Github.
 
-Class Materials
----------------
+Materiales de Clase
+-------------------
 
-* [Git via Github and Dev Workflow](1.1-git-workflow.md)
+* [Git vía Github y flujo de trabajo](1.1-git-workflow.md)
 
