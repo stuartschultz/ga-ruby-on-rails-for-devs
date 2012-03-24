@@ -1,10 +1,10 @@
-Lectura 1: Flujo de Trabajo para desarrollar
-============================================
+Lectura 1: El flujo de desarrollo del desarrollador
+===================================================
 
 Objetivo
 ---------
 
-Aprender el típico flujo de trabajo para desarrollar usado por la comunidad Ruby-on-Rails. Comprender Git y cómo trabaja con Github.
+Aprender el típico flujo de desarrollo para programar usado por la comunidad Ruby-on-Rails. Comprender Git y cómo trabaja con Github.
 
 Materiales de Clase
 -------------------
