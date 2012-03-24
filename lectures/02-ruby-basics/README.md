@@ -1,19 +1,19 @@
-Lecture 2: Ruby Basics
-======================
+Lectura 2: Cuestiones básicas
+=============================
 
-Objective
+Objetivo
 ---------
 
-Learn Ruby basics with special focus on how it differs from other mainstream programming languages. Learn Ruby OOP and implement a non-trivial extension to an existing Ruby class.
+Aprender lo básico de Ruby con especial enfoque en cómo difiere de otros lenguajes de programación. Aprender Ruby POO (Programación Orientada a Objetos) e implementar una extensión no trivial a una clase existente de Ruby.
 
-Class Materials
----------------
+Materiales de Clase
+--------------------
 
-* [Basic Language Concepts](2.1-ruby-basics.md)
-* [Ruby OOP, Exceptions and Mixins](2.2-ruby-oop.md)
+* [Conceptos básicos del lenguaje](2.1-ruby-basics.md)
+* [Ruby POO, Excepciones y Mixins](2.2-ruby-oop.md)
 
-Extra Reading
--------------
+Lecturas adicionales
+--------------------
 
-* [Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
-* [Glory of REST: Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html)
+* [Why's (Poignant) Guide to Ruby (Inglés)](http://mislav.uniqpath.com/poignant-guide/)
+* [Glory of REST: Richardson Maturity Model (Inglés)](http://martinfowler.com/articles/richardsonMaturityModel.html)
