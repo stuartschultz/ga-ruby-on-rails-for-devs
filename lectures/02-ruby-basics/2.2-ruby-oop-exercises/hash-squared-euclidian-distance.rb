@@ -14,7 +14,14 @@ Add a `squared_euclidean_distance` method to the `Hash` class that takes another
 class Hash
 
   def self.squared_euclidean_distance(lhs, rhs)
-    # TODO
+    sum = 0
+    lhs.each_key do |k|
+      rhs.has_key?(k) ? (sum += (lhs[k] - rhs[k])**2) : (sum += (0 - lhs[k])**2)
+    end
+    rhs.each_key do |k|
+      sum += (0 - rhs[k])**2 if !lhs.has_key?(k) 
+    end
+    sum
   end
 
   def squared_euclidean_distance(rhs)
@@ -31,4 +38,3 @@ raise "invalid distance between two partially overlapping hashes with keys other
 raise "invalid distance between a hash and an empty hash" unless 500 == ( { :x => 10, :y => 20 }.squared_euclidean_distance({}) )
 raise "invalid distance between an empty hash and a hash" unless 500 == ( {}.squared_euclidean_distance({ :x => 10, :y => 20 }) )
 puts "correct results in squared_euclidean_distance"
-
