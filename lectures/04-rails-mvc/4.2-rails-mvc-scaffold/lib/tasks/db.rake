@@ -1,7 +1,8 @@
 namespace :db do
   desc "Display database configuration."
   task :config => [ :environment ] do
-    # TODO: display the database configuration for current Rails environment
+    environment = Rails.env
+    config = YAML.load(File.open(Rails.root + 'config/database.yml'))
+    puts "Your #{environment} environment database settings are: #{config[environment]}"
   end
 end
-
