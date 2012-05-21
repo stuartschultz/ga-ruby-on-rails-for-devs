@@ -31,4 +31,15 @@ group :test do
   gem 'turn', :require => false
   # Updated version of minitest, rake test complains
   gem 'minitest', "~> 2.9"
+  # Adds rspec in testing environment
+  gem "rspec"
+  gem "rspec-rails"
+  gem "rspec-core"
+  gem "rspec-expectations"
+  gem "rspec-mocks"
+  gem "shoulda"
+  gem "fabrication" # same as factory girl
+  gem "database_cleaner"
+  gem "faker" # creates fake data
+  gem "capybara" # for ui testing (integration tests)
 end
