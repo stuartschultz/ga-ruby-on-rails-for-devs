@@ -24,6 +24,7 @@ describe ThingsController do
   end # context with mocks
   
   context "with fabricator" do
+
     describe '#new' do #new
       it "should display the new page" do
         get :new
@@ -31,6 +32,7 @@ describe ThingsController do
         assigns(:thing).should_not be_nil
       end    
     end # new
+
     describe '#create' do #create
       let(:fake_thing) {Fabricate.build(:thing)}
       it "should create a thing" do
@@ -41,11 +43,18 @@ describe ThingsController do
         }.to change {Thing.count}.by(1)      
       end
     end # create
-    describe '#destroy' do
-      let(:fake_thing) {Fabricate.create(:thing)}
+
+    describe '#destroy' do #destroy
+      let(:fake_thing) {Fabricate(:thing)}
       it "should destory a thing" do
+        f = fake_thing
+        expect {
+          delete :destroy, {:id => f.id}
+          response.should be_redirect
+        }.to change {Thing.count}.by(-1)
       end
     end # destroy
+
   end # context with fabricator
   
 end
