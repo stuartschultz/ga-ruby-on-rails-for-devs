@@ -46,7 +46,7 @@ describe ThingsController do
 
     describe '#destroy' do #destroy
       let(:fake_thing) {Fabricate(:thing)}
-      it "should destory a thing" do
+      it "should destroy a thing" do
         f = fake_thing
         expect {
           delete :destroy, {:id => f.id}
