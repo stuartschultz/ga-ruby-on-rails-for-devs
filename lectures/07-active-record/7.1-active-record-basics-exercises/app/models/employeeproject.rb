@@ -4,4 +4,13 @@ class Employeeproject < ActiveRecord::Base
   validates_presence_of :project_id
   belongs_to :employee
   belongs_to :project
+  
+  #after_save :update_count
+  
+ # private
+  
+    #def update_count
+    #  project.update_count
+    #end
+
 end

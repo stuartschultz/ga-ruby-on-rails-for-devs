@@ -1,0 +1,23 @@
+RAILS ACTIVE RECORD DATA CRUD NOTES
+
+* To open the rails console to be able to CRUD data, type "rails c" or "bundle exec rails c"
+
+* To create an object, invoke the class
+eg. To create a project, you would use the Project class
+
+* To create a object but not save, you do Class.new
+eg. Project.new
+
+* To add criteria to the object, throw it in within parenthesis
+eg. Project.new(name: "Alpha")
+
+* To get the last record pulled, you type "_"
+eg. p = _
+
+* To save to the database you could do the variable.save!
+eg. p.save!
+
+* If you have two different models and create a join table to join the two of them, to add something to the join table (let's say employees and projects), you would create an employee and save it to a variable ("e"), then create a project and save it to a variable ("p"). Next, you would do e.projects << p and ActiveRecord will automatically add a record to the join table. Then if you reload e and p, the relationship will be there and you can do e.projects and p.employees to see what's there
+
+* To delete a relationship between project and employees, delete it from the join table (model)
+
